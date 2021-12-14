@@ -170,7 +170,17 @@ app.UseSwaggerUI();
 app.Run();
 ```
 
-Sources: 
+## Tester l'api avec Postman
+
+Installer si nécessaire Postman depuis https://www.postman.com/.
+
+Depuis un navigateur afficher et sauvegarder le fichier swagger.json dont l'url est disponible quand vous lancer l'api, elle devrait ressembler à quelque chose comme : https://localhost:44365/swagger/v1/swagger.json .
+
+Dans les collections postman cliquer sur **importer** et déposer le fichier swagger.json dans la fenêtre postman pour générer le nécessaire pour interagir avec l'API. À la racine de la collection spécifier la bonne url pour appeler l'api.
+
+Je rajoute les swagger.json et la collection postman dans le dossier doc du projet.
+
+## Sources: 
 
 - https://docs.microsoft.com/en-us/aspnet/core/tutorials/min-web-api?view=aspnetcore-6.0&tabs=visual-studio
 - https://medium.com/@gerhardmaree/quickly-create-a-net-6-minimal-api-with-swagger-documentation-720d88db79fb
